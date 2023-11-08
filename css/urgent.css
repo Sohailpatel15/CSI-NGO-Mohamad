@@ -1,0 +1,116 @@
+/* styles.css */
+.continuous-line-x { /* Width to span the entire width of the page */
+    height: 2px; /* Height of the line */
+    position: relative;
+    background: #000; /* Line color */
+    size: fitcontent;
+    margin-top: 4vh;
+    margin-left: 29vh;
+    margin-right: 40px;
+    top: 50%; /* Position it in the middle of the page vertically */
+    transform: translateY(-1px); /* Correct for the line height to center it */
+    max-width: 100%;
+}
+
+/* styles.css */
+.continuous-line-y {
+    width: 2px; /* Width of the vertical line */
+    height: 300vh; /* Height to span the entire height of the page */
+    background: #000; /* Line color */
+    position: fixed;
+    margin-left: 4vh;/* Position it in the middle of the page horizontally */
+    top: 0;
+    transform: translateX(-1px); /* Correct for the line width to center it */
+}
+
+#firstpage{
+    width: 100%;
+    height: 100vh;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#heading h2{
+    font-family: Meursault Web; 
+    margin-top: -10px;
+    font-size: 35px;
+    padding-left: 8vh;
+}
+
+#heading #categories{
+    padding-right: 5vh;
+    font-family: General Sans;
+
+}
+
+#heading a{
+    color: black;
+    align-items: center;
+    font-weight: 400;
+    margin-left: 5vh;
+    text-decoration: none;
+}
+
+
+#brand2{
+    font-family: Meursault Web; 
+    margin-top: -45px;
+    font-size: 35px;
+    padding-left: 8vh;
+}
+
+#missing{
+    display: flex;
+    margin-left: 10vh;
+    align-items: center;
+    
+}
+
+#missing h3{
+    font-family: General Sans;
+    font-weight: 200;
+}
+
+#missing .download{
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    width: 20vh;
+    height: 7vh;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 2vh;
+  }
+
+  #missing-img{
+    margin-top: 4vh;
+    margin-left: 15vh;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

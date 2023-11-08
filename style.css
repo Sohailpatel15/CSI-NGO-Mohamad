@@ -1,0 +1,374 @@
+@font-face {
+  font-family: 'Meursault Web';
+  src: url('fonts/MeursaultWeb-CdBold (1).woff') format('woff');
+  /* Add more src formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('fonts/GeneralSans-Regular.woff') format('woff');
+  /* Add more src formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* styles.css */
+.continuous-line-x { /* Width to span the entire width of the page */
+    height: 2px; /* Height of the line */
+    position: relative;
+    background: #000; /* Line color */
+    size: fitcontent;
+    margin-top: 4vh;
+    margin-left: 29vh;
+    margin-right: 40px;
+    top: 50%; /* Position it in the middle of the page vertically */
+    transform: translateY(-1px); /* Correct for the line height to center it */
+    max-width: 100%;
+}
+
+/* styles.css */
+.continuous-line-y {
+    width: 2px; /* Width of the vertical line */
+    height: 100%; /* Height to span the entire height of the page */
+    background: #000; /* Line color */
+    position: fixed;
+    margin-left: 4vh;/* Position it in the middle of the page horizontally */
+    top: 0;
+    transform: translateX(-1px); /* Correct for the line width to center it */
+}
+
+#firstpage{
+    width: 100%;
+    height: 100vh;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#heading h2{
+    font-family: Meursault Web; 
+    margin-top: -10px;
+    font-size: 35px;
+    padding-left: 8vh;
+}
+
+#heading #categories{
+    padding-right: 5vh;
+    font-family: General Sans;
+
+}
+
+#heading a{
+    color: black;
+    align-items: center;
+    font-weight: 400;
+    margin-left: 5vh;
+    text-decoration: none;
+}
+
+
+#brand2{
+    font-family: Meursault Web; 
+    margin-top: -45px;
+    font-size: 35px;
+    padding-left: 8vh;
+}
+
+#firstpage{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#first{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7vh;
+    size: fit-content;
+}
+
+#first p{
+    font-family: General Sans;
+    font-size: 2.5vh;
+    margin-top: -10px;
+}
+
+#first h3{
+    font-family: Meursault Web;
+    font-weight: 300;
+    font-size: 6.5vh;
+    line-height: 55px;
+    padding-top: 2vh;
+    width: fit-content;
+}
+
+#first .donate{
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid black;
+  border-radius: 9px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  width: 20vh;
+  height: 7vh;
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+#firstpage img{
+    position: relative;
+    padding-right: 5vh;
+    width: 100vh;
+    max-width: 100%;
+}
+
+#secondpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#secondpage .blue{
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+    margin-left: -10px;
+    width: 50vh;
+    height: 70ch;
+    opacity: .2;
+}
+
+#secondpage .shelter{
+    position: absolute;
+    z-index: 2;
+    border: 0px;
+    width: 65vh;
+    height: 40vh;
+    margin-top: 30vh;
+    margin-left: -41vh;
+}
+
+#secondpage .rescue{
+    position: absolute;
+    z-index: 2;
+    width: 44vh;
+    height: 35ch;
+    margin-top: 35vh;
+    margin-left: 28vh;
+}
+
+#secondpage .pups{
+    position: absolute;
+    z-index: 2;
+    width: 44vh;
+    height: 35ch;
+    margin-left: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 30vh;
+}
+
+#secondpage #acontent{
+    margin-left: 75vh;
+}
+
+#secondpage h3{
+    font-family: Meursault Web ;
+    font-weight: 300;
+    font-size: 6.5vh;
+    line-height: 55px;
+    padding-top: 2vh;
+    width: fit-content;
+}
+
+#secondpage p{
+    font-family: General Sans;
+    font-size: 2.5vh;
+    margin-top: -10px;
+}
+
+#secondpage .donate{
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    width: 20vh;
+    height: 7vh;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  #third #thirdpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    z-index: 0;
+  }
+
+  #third #thirdpage .peach{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    margin-left: -30px;
+    opacity: .2;
+    
+  }
+
+  #third #pics{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    z-index: 1;
+    margin-top: -85vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
+  }
+
+  #pics .dog{
+    width: 30vh;
+    height: 30vh;
+  }
+
+  #info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Meursault Web ;
+    z-index: 2;
+    padding-left: 10vh;
+    padding-right: 7vh;
+  }
+
+  #info h3{
+    margin-top: 2vh;
+    font-size: 4vh;
+  }
+
+
+  #detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 12vh;
+    padding-right: 7vh;
+  }
+
+  #detail p{
+    font-family: General Sans;
+    font-size: 2.5vh;
+    padding-left: 8vh;
+    margin-top: -2vh;
+  }
+
+  .continuous-line-x2 { /* Width to span the entire width of the page */
+    height: 2px; /* Height of the line */
+    position: relative;
+    background: #000; /* Line color */
+    size: fitcontent;
+    margin-top: -5vh;
+    margin-left: 32vh;
+    margin-right: 40px;
+    transform: translateY(-1px); /* Correct for the line height to center it */
+    max-width: 100%;
+}
+
+  #foot{
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  #foot #logo{
+    justify-content: space-between;
+    position: relative;
+    margin-right: 5vh;
+  }
+
+  #foot img{
+    margin-top: 34vh;
+    padding-left: 1vh;
+  }
+
+  #foot .brand2{
+    font-family: Meursault Web;
+    line-height: 1;
+    font-size: 35px;
+    margin-left: 8vh;
+    margin-top: 30vh;
+    size: fit-content;
+  }
+
+
+@media (max-width: 1024px){
+  #first h3{
+    font-family: Meursault Web;
+    font-weight: 300;
+    font-size: 6.5vh;
+    line-height: 45px;
+    padding-top: 2vh;
+    width: fit-content;
+  }
+
+    #secondpage h3{
+      font-family: Meursault Web ;
+      font-weight: 300;
+      font-size: 6.5vh;
+      line-height: 45px;
+      padding-top: 2vh;
+      width: fit-content;
+  }
+}
+
+@media (max-width: 781px){
+  #secondpage .shelter{
+    position: absolute;
+    z-index: 2;
+    border: 0px;
+    width: 55vh;
+    height: 40vh;
+    margin-top: 30vh;
+    margin-left: -41vh;
+}
+
+#secondpage .rescue{
+    position: absolute;
+    z-index: 2;
+    width: 44vh;
+    height: 25ch;
+    margin-top: 35vh;
+    margin-left: 18vh;
+}
+
+#secondpage .pups{
+    position: absolute;
+    z-index: 2;
+    width: 34vh;
+    height: 25ch;
+    margin-left: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 30vh;
+}
+
+  #pics .dog{
+    width: 20vh;
+    height: 20vh;
+  }
+}
